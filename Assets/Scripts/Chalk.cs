@@ -1,14 +1,15 @@
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Chalk : MonoBehaviour
 {
     [SerializeField] private DrawingController _drawingController;
-    [SerializeField] private Color _color;
-    
+
     [UsedImplicitly]
     public void OnClick()
     {
-        _drawingController.SelectedColor(_color);
+        var color = GetComponent<Image>().color;
+        _drawingController.SelectedColor(color);
     }
 }
