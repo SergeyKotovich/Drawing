@@ -765,7 +765,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 475.15, y: 397.79, z: 36.187317}
+  m_Size: {x: 901.3, y: 305.7, z: 36.187317}
   m_Center: {x: -0.40045166, y: -5.477062, z: 2.3203125}
 --- !u!1001 &1470931081
 PrefabInstance:
@@ -1107,7 +1107,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _drawingController: {fileID: 181643455}
-  _color: {r: 0.2901961, g: 0.8117648, b: 0.027450982, a: 0}
 --- !u!1001 &1748030043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1377,7 +1376,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _drawingController: {fileID: 181643455}
-  _color: {r: 1, g: 0, b: 0, a: 0}
 --- !u!1 &1824150255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3553862158798444077, guid: ede9cc26926c1514eb8715d7f22e0060, type: 3}
@@ -1504,7 +1502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _drawingController: {fileID: 181643455}
-  _color: {r: 0.08235294, g: 0, b: 0.9607844, a: 0}
 --- !u!1001 &2134202195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1591,11 +1588,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5311446910486474968, guid: 8a67756c815aeae4b8ad5150ffc5a881, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 283
+      value: 308
       objectReference: {fileID: 0}
     - target: {fileID: 5311446910486474968, guid: 8a67756c815aeae4b8ad5150ffc5a881, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -397
+      value: -310
       objectReference: {fileID: 0}
     - target: {fileID: 5311446910486474968, guid: 8a67756c815aeae4b8ad5150ffc5a881, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1620,7 +1617,7 @@ PrefabInstance:
     - target: {fileID: 5311446910486474971, guid: 8a67756c815aeae4b8ad5150ffc5a881, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 181643455}
+      objectReference: {fileID: 0}
     - target: {fileID: 5311446910486474971, guid: 8a67756c815aeae4b8ad5150ffc5a881, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClearBoard
